@@ -1,0 +1,2 @@
+# supermarktstatus-qr
+WirVsVirusHackathon

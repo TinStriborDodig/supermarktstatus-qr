@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'supermarkt/xy', pathMatch: 'full' },
+  { path: '', redirectTo: 'supermarkt/njzLcQpP1Grv5cCFYvsR', pathMatch: 'full' },
   { path: 'supermarkt/:id', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
   {
     path: 'message/:id',

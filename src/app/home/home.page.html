@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Lidl Leonberg
+     Regalo 
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -19,17 +19,12 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-card>
-    <img src="https://www.calamillor.guru/wp-content/uploads/lidl/lidl2.jpg" />
+  <ion-card >
+    <img src="{{supermarket.imgurl}}" />
     <ion-card-header>
-      <ion-card-subtitle>Gutenbergstraße 99, Leonberg</ion-card-subtitle>
-      <ion-card-title>LIDL Leonberg</ion-card-title>
+      <ion-card-subtitle>{{supermarket.location}}</ion-card-subtitle>
+      <ion-card-title>{{supermarket.name}}</ion-card-title>
     </ion-card-header>
-    <ion-card-content>
-      Bitte halten Sie Abstand und nehmen Sie rücksicht.
-      Vermeiden Sie Hamstereinkäufe. Die Grundversorgung wird nie knapp werden.
-      Am Eingang sind Handdesinfektionsspender.
-    </ion-card-content>
   </ion-card>
 
   <ion-searchbar placeholder="Suchen Sie Ihren Artikel..."></ion-searchbar>
@@ -37,6 +32,9 @@
   
   <ion-list>
     <ion-list-header>Bestand</ion-list-header>
-    <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
+    <ion-item *ngFor="let product of products">
+        {{product.name}}
+    </ion-item>
+   
   </ion-list>
 </ion-content>

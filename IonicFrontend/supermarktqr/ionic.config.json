@@ -1,0 +1,7 @@
+{
+  "name": "supermarktqr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

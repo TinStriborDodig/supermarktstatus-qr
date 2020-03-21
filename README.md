@@ -12,6 +12,8 @@ Unser Backend ist mit einer Firebase realisiert bitte wendet euch im Slack an di
 
 # Datenmodell
 
+# Frontend
+
 
 # Ist die App online
 Ja wir haben 

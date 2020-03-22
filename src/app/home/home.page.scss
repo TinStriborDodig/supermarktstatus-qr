@@ -1,3 +1,8 @@
 ion-content ion-toolbar {
   --background: var(--ion-background-color);
 }
+
+ion-card-title.distance{
+  font-size: 12px;
+  color: lightgray;
+}
